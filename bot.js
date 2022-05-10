@@ -65,7 +65,12 @@ if (message.substring(0, 1) == '!') {
 
         break;
 
-        // Just add any case commands if you want to..
+        case 'hello':
+                bot.sengMessage({
+                    to: channelID,
+
+                    message: 'Bonjour'
+                });
 
      }
 
