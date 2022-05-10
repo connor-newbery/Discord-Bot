@@ -1,0 +1,10 @@
+{
+        "name": "dog-bot",
+        "description": "Bot man extreme",
+        "main": "bot.js",
+        "auhtor": "Liver God",
+        "dependencies": {
+                "discord.io": "https://github.com/woor/discord.io/tarball/gateway_v6",
+                "winston": "^3.7.2"
+        }
+}
