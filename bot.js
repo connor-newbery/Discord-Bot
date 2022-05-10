@@ -66,7 +66,7 @@ if (message.substring(0, 1) == '!') {
         break;
 
         case 'hello':
-                bot.sengMessage({
+                bot.sendMessage({
                     to: channelID,
 
                     message: 'Bonjour'
